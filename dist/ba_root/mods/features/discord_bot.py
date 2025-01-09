@@ -139,7 +139,7 @@ async def send_complaint_to_channel(server_name, time, myself, ign, useracid, fi
         return
     
     complaint_message = (
-        f":reminder_ribbon:**__{server_name}__\n=========================================**\n> |:arrow_right:`COMPLAINT TIME:` {time}\n> \n> |:arrow_right:`USERNAME(IGN)/ACCOUNT-ID:` {myself} ({ign})/{useracid}\n> \n"
+        f"<@&1047206810173575173> <@&1326547418338168913>\n> :reminder_ribbon:**__{server_name}__\n=========================================**\n> |:arrow_right:`COMPLAINT TIME:` {time}\n> \n> |:arrow_right:`USERNAME(IGN)/ACCOUNT-ID:` {myself} ({ign})/{useracid}\n> \n"
         f"> |:arrow_right:`OFFENDER(IGN)/ACCOUNT-ID:` {offender} ({fign})/{acid}\n> \n> |:arrow_right:`LINKED-ACCOUNTS OF OFFENDER:` {linkedaccount}\n> \n> |:arrow_right:`TYPE OF COMPLAINT:` **{complaint}**\n> __ {complaint_role} __\n**=========================================**"
     )
     c.update_complaint_count(useracid, myself, mongo)
