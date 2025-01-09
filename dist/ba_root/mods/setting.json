@@ -1,7 +1,7 @@
 {
-    "paidCommands": false,
-    "JoinClaim": false,
-    "NotifyPlayer": false,
+    "paidCommands": true,
+    "JoinClaim": true,
+    "NotifyPlayer": true,
     "compChatText": false,
     "NightMode": false,
     "whitelist": false,
@@ -27,8 +27,8 @@
         ]
     },
     "Snowfall": {
-        "enable": false,
-        "SnowCount": 3,
+        "enable": true,
+        "SnowCount": 5,
         "SnowFallingSpeed": 0.4,
         "SnowScale": 0.5
     },
@@ -58,8 +58,8 @@
             ],
             "randomColor": true,
             "msg": [
-                "\ue048WELCOME TO VORTEX VS HONOR OFFICIAL\ue048",
-                "\ue043JOIN OUR DISCORD : VH PARADISE :)\ue043",
+                "\ue048WELCOME TO PROVIN SQUAD OFFICIAL\ue048",
+                "\ue043JOIN OUR DISCORD : PROVIN SQUAD :)\ue043",
                 "\ue048TYPE (/vp) TO KNOW VOTING PLAYLIST\ue048",
                 "\ue048TYPE (/acl) TO KNOW ADMIN COMMANDS\ue048",
                 "\ue048TYPE (/coinhelp) TO KNOW HOW TO BUY EFFECTS AND MANY MORE..\ue048",
