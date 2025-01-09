@@ -90,7 +90,7 @@
             "type (/cs) to find out how to complaint in discord server from game",
             "type (/coinhelp) to know how to buy effects and many more..",
             "type (/dclink) to know how to link pbid to discord-id & get rewards",
-            "join our discord : vh paradise :)",
+            "join our discord : PROVINSQUAD :)",
             "type vp to know voting playlist",
             "please respect other players :)",
             "start msg with prefix .(dot) to send in game popup msg",
@@ -104,18 +104,13 @@
     "TopMapText": {
         "enable": true,
         "msg": [
-            "\ue062VORTEX\ue062",
-            "\ue04bVORTEX x HONOR\ue04b",
-            "\ue048HONOR\ue048",
-            "\ue04bVORTEX x HONOR\ue04b",
-            "\ue062VORTEX\ue062",
-            "\ue048HONOR\ue048"
+            "\ue062🥀|||PROVIN SQUAD||🍁\ue062"
         ]
     },
-    "statsResetAfterDays": 45,
+    "statsResetAfterDays": 20,
     "leaderboard": {
         "enable": true,
-        "barsBehindName": true
+        "barsBehindName": false
     },
     "autoNightMode": {
         "enable": true,
@@ -129,7 +124,7 @@
     },
     "colorfullMap": false,
     "playlists": {
-        "team": 12345,
+        "team": 438330,
         "epicteams": 442578,
         "ffa": 412175,
         "elim": 412172,
@@ -150,7 +145,7 @@
         "timezone": "Asia/Kolkata"
     },
     "colorful_explosions": {
-        "enable": false
+        "enable": true
     },
     "backflip": {
         "enable": false
