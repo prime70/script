@@ -10,7 +10,7 @@ tell_time = True
 #
 #
 #
-askQuestions = False
+askQuestions = True
 #
 #
 #
@@ -20,7 +20,7 @@ questionsList = {'If you lost your ranks worry not.. Reclaim your scores, kills 
 #
 #
 #
-questionDelay = 10 #60 #seconds
+questionDelay = 120 #60 #seconds
 #
 #
 #
@@ -41,7 +41,7 @@ availablecommands = {'nv': 100,
     'thaw all': 70, 
     'kill': 80, 
     'kill all': 150, 
-    'end': 100, 
+    'end': 400, 
     'hug': 60, 
     'hugall': 100,
     'sm': 50, 
@@ -53,8 +53,8 @@ availablecommands = {'nv': 100,
     'curse all': 100, 
     'heal': 50, 
     'heal all': 70, 
-    'gm': 200,
-    'customtag': 3000}
+    'gm': 20090000,
+    'customtag': 10000}
 
 
 
