@@ -106,7 +106,7 @@ class textonmap:
                         'flatness': 3.0,
                         'h_align': 'center',
                         'v_attach':'top',
-                        'scale':1.2,
+                        'scale':1.0,
                         'position':(0,-55),
                         'color':(1,1,1)})      
         ba.animate_array(
@@ -152,7 +152,7 @@ class textonmap:
        )   
         node = _ba.newnode('text',
                             attrs={
-                                'text':u'\ue043[\U0001F451] OWNER : VORTEX & HONOR\n\ue048[\U0001F6E0] MANAGED BY : TEAM VORTEX',
+                                'text':u'\ue043[🥀] 𝐎𝐖𝐍𝐄𝐑 : \ue043𝐆𝐓 𝐚𝐧𝐝 \ue043ᎷᏒ.ᏢᏒ𝐢ᎷᎬ\n\ue048[\U0001F6E0] 𝐌𝐀𝐍𝐀𝐆𝐄𝐃 𝐁𝐘 : \ue043ミ★〘✮〙༎ Ꮲ 𝕽۝𝐕𝕴𝐍 𝕾𝖖𝖚𝖆𝖉༽࿐\ue043',
                                 'flatness': 1.0,
                                 'h_align': 'left',
                                 'v_attach':'bottom',
@@ -170,7 +170,7 @@ class textonmap:
                                 'h_align':'right',
                                 'v_attach':'bottom',
                                 'h_attach':'right',
-                                'scale':0.7,
+                                'scale':0.5,
                                 'position':(-25,5),
                                 'color':(1,1,1)
                             })
@@ -184,7 +184,7 @@ class textonmap:
                                 'h_align':'right',
                                 'v_attach':'bottom',
                                 'h_attach':'right',
-                                'scale':0.7,
+                                'scale':0.5,
                                 'position':(-25, 25),
                                 'color':(1,1,1)
                             })
@@ -195,7 +195,7 @@ class textonmap:
         if hasattr(_ba,'restart_scheduled'):
             _ba.get_foreground_host_activity().restart_msg = _ba.newnode('text',
                                 attrs={
-                                    'text':"Server going to restart after this series.",
+                                    'text':"𝐒𝐞𝐫𝐯𝐞𝐫 𝐢𝐬 𝐠𝐨𝐢𝐧𝐠 𝐭𝐨 𝐫𝐞𝐬𝐭𝐚𝐫𝐭 𝐚𝐟𝐭𝐞𝐫 𝐭𝐡𝐢𝐬 𝐬𝐞𝐫𝐢𝐞𝐬!",
                                     'flatness':1.0,
                                     'h_align':'right',
                                     'v_attach':'bottom',
@@ -212,7 +212,7 @@ class textonmap:
                                 'flatness': 1.0,
                                 'h_align': 'center',
                                 'v_attach':'top',
-                                'scale':1.2,
+                                'scale':1.0,
                                 'position':(0,-70),
                                 'color':((0+random.random()*1.0),(0+random.random()*1.0),(0+random.random()*1.0))
                             })
@@ -242,7 +242,7 @@ class textonmap:
 
         node = _ba.newnode('text',
                             attrs={
-                                'text':u'\ue048CONTACT OWNER FOR DETAILS & SUGGESTION\ue048\n\ue00cHAPPY BOMBSQUADING\ue00c',
+                                'text':u'\ue048CONTACT OWNER FOR DETAILS & SUGGESTION\ue048',
                                 'flatness': 3.0,
                                 'h_align': 'center',
                                 'v_attach':'top',
@@ -283,7 +283,7 @@ class textonmap:
                         'h_attach': 'center',
                         'h_align': 'center',
                         'v_attach':'top',
-                        'position':(400,-62),
+                        'position':(400,-37),
                         'color':(1,1,1)})      
         ba.animate_array(
              node,
@@ -302,13 +302,13 @@ class textonmap:
         )            
         node = _ba.newnode('text',
                             attrs={
-                                'text':u'\ue048| VH PARADISE |\ue048',
+                                'text':u'\ue048|🥀𝐓𝐀𝐌𝐈𝐋 𝐑𝐎𝐂𝐊𝐄𝐑𝐒🍻|\ue048',
                                 'flatness':1.0,
                                 'h_align':'center',
                                 'v_attach':'top',
                                 'h_attach':'center',
                                 'scale':0.75,
-                                'position':(400,-35),
+                                'position':(400,-36),
                                 'color':(1,1,1)})
         ba.animate_array(
              node,
