@@ -104,7 +104,7 @@
     "TopMapText": {
         "enable": true,
         "msg": [
-            "\ue062🥀|||PROVIN SQUAD||🍁\ue062"
+            "\ue062🥀||PROVIN SQUAD||🍁\ue062"
         ]
     },
     "statsResetAfterDays": 20,
@@ -141,7 +141,7 @@
         "enable": false
     },
     "timetext": {
-        "enable": true,
+        "enable": false,
         "timezone": "Asia/Kolkata"
     },
     "colorful_explosions": {
