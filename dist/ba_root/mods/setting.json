@@ -231,34 +231,33 @@
         "database_name": "default",
         "token": "<bot-token-here>",
         "liveChat": true,
-        "liveStatsChannelID": 1237851459899625512,
-        "logsChannelID": 1177676398803034153,
-        "complaintChannelID": "<complaint_channel_id>",
-        "notifyChannelID": "<notify_channel_id>",
+        "liveStatsChannelID": 1047206811335393355,
+        "logsChannelID": 1306280167135514718,
+        "complaintChannelID": 1047206811335393351,
+        "notifyChannelID": 1047206811335393351,
         "whitelisted_servers": [
-            803681951109873724
+            1047206810161008710
         ],
         "allowed_user_ids": [
-            803681951109873724,
-            856735876423483454
+            932979337328726017
         ],
-        "bot_prefix": "<bot-prefix-here>",
-        "commands_prefix": "<command-prefix-here>",
-        "complaint_role": "<complaint_role_id_here>",
-        "notify_role": "<notify_role_id_here>"
+        "bot_prefix": "B!",
+        "commands_prefix": "C!",
+        "complaint_role": 1047206810173575173,
+        "notify_role": 1047206810173575173
     },
     "autoadmin": {
-        "enable": false,
+        "enable": true,
         "top_rank_count": 50,
         "admin_rank": [
             1
         ],
-        "score_for_admin": 40000,
+        "score_for_admin": 24000,
         "vip_rank": [
             2,
             3
         ],
-        "score_for_vip": 30000
+        "score_for_vip": 17000
     },
     "CurrencyType": {
         "CurrencyName": "tickets",
@@ -272,10 +271,10 @@
     },
     "discordWebHook": {
         "enable": false,
-        "webhookURL": "https://discord.com/api/webhooks/82649239/e7s0zyBJIuczXL7_CGSO5WM"
+        "webhookURL": "https://discord.com/api/webhooks/1313490835563876372/kJ-e01inn90QPThVB5WTjZurol8ryc50MYP2UqyuGKsZvXnncUZLFQ0LyzbhnOxQ_fXI"
     },
     "afk_remover": {
-        "enable": true,
+        "enable": false,
         "ingame_idle_time_in_secs": 250,
         "kick_idle_from_lobby": true,
         "lobby_idle_time_in_secs": 150
@@ -289,7 +288,7 @@
     "betrayerSystem": {
         "enable": true,
         "betrayWarnCooldownMinutes": 5,
-        "maxWarnCount": 5,
+        "maxWarnCount": 4,
         "afterBetrayWarnKickMsg": "You have been kicked for betraying your team!",
         "betraywarnMsg": "Warning: Betraying your teammates is not allowed!"
     },
@@ -299,17 +298,17 @@
     "sameCharacterForTeam": false,
     "allowInGameDm": true,
     "newResultBoard": true,
-    "HostDeviceName": "v1.4",
-    "HostName": "VH-v2.0",
+    "HostDeviceName": "PSv1.4",
+    "HostName": "PS-v2.0",
     "ShowKickVoteStarterName": true,
     "autoTeamBalance": true,
     "KickVoteMsgType": "chat",
-    "minAgeToChatInHours": 78,
-    "minAgeToJoinInHours": 120,
+    "minAgeToChatInHours": 48,
+    "minAgeToJoinInHours": 48,
     "maxWarnCount": 2,
     "WarnCooldownMinutes": 30,
     "ComplainterExpired": true,
-    "complaintTimeoutInHours": 3,
+    "complaintTimeoutInHours": 0.1,
     "maxAccountPerIP": 3,
     "maxPlayersPerDevice": 2,
     "warnMsg": "WARNING !!! DONT DO AGAIN! :)",
@@ -321,8 +320,8 @@
     "enablehptag": true,
     "enablerank": true,
     "enablestats": true,
-    "enableOldHitTexts": true,
-    "enableNewHitTexts": true,
+    "enableOldHitTexts": false,
+    "enableNewHitTexts": false,
     "enableeffects": true,
     "ShiningPlayers": true,
     "enableTop5effects": true,
