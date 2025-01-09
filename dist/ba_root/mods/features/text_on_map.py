@@ -88,7 +88,7 @@ class textonmap:
           node = _ba.newnode('text',
                           attrs={
                               'text': u"" + "Date : " + str(datetime.now(pytz.timezone(time)).strftime("%A, %B %d, %Y")) + "\nTime : " + str(datetime.now(pytz.timezone(time)).strftime("%I:%M:%S %p")),
-                              'scale': 0.85,
+                              'scale': 0.4,
                               'flatness': 1,
                               'maxwidth': 0,
                               'h_attach': 'center',
@@ -277,7 +277,7 @@ class textonmap:
         node = _ba.newnode('text',
                     attrs={
                         'text': count,
-                        'scale': 0.75,
+                        'scale': 0.7,
                         'flatness': 1,
                         'maxwidth': 0,
                         'h_attach': 'center',
@@ -302,7 +302,7 @@ class textonmap:
         )            
         node = _ba.newnode('text',
                             attrs={
-                                'text':u'\ue048|🥀𝐓𝐀𝐌𝐈𝐋 𝐑𝐎𝐂𝐊𝐄𝐑𝐒🍻|\ue048',
+                                'text':u'\ue048|🥀𝐏𝐑𝐎𝐕𝐈𝐍 𝐒𝐐𝐔𝐀𝐃🍻|\ue048',
                                 'flatness':1.0,
                                 'h_align':'center',
                                 'v_attach':'top',
