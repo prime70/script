@@ -1,6 +1,6 @@
 {
     "owner": {
-        "tag": "\\c\u1d0f\u1d21\u0274\u1d07\u0280\\c",
+        "tag": "\\cO.W.N.E.R\\c",
         "tagcolor": [
             1,
             0.6,
@@ -10,8 +10,8 @@
             "ALL"
         ],
         "ids": [
-            "pb-IF4BUlQBJw==",
-            "pb-JiNJARFeXENAVF5FEkFQXFVBGUJWTlVH"
+            "pb-IF4OUm9dFg==",
+            "pb-IF4CUmEDNQ=="
         ]
     },
     "co-owner": {
@@ -143,9 +143,7 @@
             "icy",
             "ALL"
         ],
-        "ids": [
-            "pb-JiNJARFeXENAVF5FEkFQXFVBGUJWTlVH"
-        ]
+        "ids": []
     },
     "cs": {
         "tag": "\\d\ud835\udc6a\ud835\udc76\ud835\udc74\ud835\udc77\ud835\udc73\ud835\udc68\ud835\udc70\ud835\udc75\ud835\udc7b_\ud835\udc7a\ud835\udc7b\ud835\udc68\ud835\udc6d\ud835\udc6d\\d",
@@ -198,13 +196,10 @@
             "end",
             "remove",
             "gp",
-            "ban",
             "reflections",
             "customeffect",
             "customtag",
             "rm",
-            "addcmd",
-            "removecmd",
             "removetag",
             "playlist"
         ],
@@ -261,7 +256,6 @@
             "end",
             "remove",
             "gp",
-            "ban",
             "reflections"
         ],
         "ids": []
@@ -430,7 +424,7 @@
         ],
         "commands": [],
         "ids": [
-            "pb-JiNJARFeXENAVF5FEkFQXFVBGUJWTlVH"
+            "pb-IF4OUm9dFg=="
         ]
     },
     "tourney": {
