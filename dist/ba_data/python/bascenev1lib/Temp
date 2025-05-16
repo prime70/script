@@ -1,1 +1,6 @@
-Hjs
+to add new playlist in old script
+
+copy their file which contains mapdata file (copy whole file)
+rename it to the latest name in bs sys file like this bascenev1lib 
+go to mapdata of copied folder 
+now replace the mapsss with new one
